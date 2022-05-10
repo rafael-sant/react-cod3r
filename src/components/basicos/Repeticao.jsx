@@ -1,7 +1,7 @@
 import React from "react";
 import produtos from "../data/products"
 
-export default props => {
+export default function Repeticao(props) {
   function getProductsListItem() {
     return produtos.map(prod => {
       return <li key={prod.id}>
